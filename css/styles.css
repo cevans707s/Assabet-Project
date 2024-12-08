@@ -6,7 +6,7 @@ body {
     position: relative;
     margin: auto;
     display: grid;
-    grid-template-columns: 0.6fr 2fr 0.6fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
     grid-template-areas: 
         "title title title"
         "nav nav nav"
@@ -48,6 +48,24 @@ nav {
     padding-right: 1em;
 }
 
+.column1 ul {
+    list-style: none;
+}
+
+.column1 li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    background-color: hsl(240, 10%, 75%);
+    color:rgb(0, 0, 0);
+}
+
+.column1 li:hover {
+    background-color: rgb(43, 226, 208);
+    color: rgb(255, 0, 0);
+    transition: 0.25s;
+}
+
 .column2 {
     grid-area: col2;
     background-color: hsl(240, 10%, 90%);
@@ -73,6 +91,11 @@ nav {
 #splash {
     max-width: 800px;
     display: block;
+}
+
+.nature-image{
+    max-width: 300px;
+
 }
 
 body > nav {
