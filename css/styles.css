@@ -22,13 +22,13 @@ nav li {
 	display: inline-block;
     padding: 10px;
     margin: 2px;
-    background-color: rgb(159, 185, 211);
-    color:rgb(0, 0, 0);
+    background-color: hsl(210, 45%, 70%);
+    color: hsl(60, 0%, 0%);
 }
 
 nav li:hover {
-    background-color: rgb(43, 226, 208);
-    color: rgb(255, 0, 0);
+    background-color: hsl(160, 65%, 50%);
+    color: hsl(60, 0%, 0%);
     transition: 0.25s;
 }
 
@@ -61,8 +61,8 @@ nav {
 }
 
 .column1 li:hover {
-    background-color: rgb(43, 226, 208);
-    color: rgb(255, 0, 0);
+    background-color: hsl(160, 40%, 60%);
+    color: hsl(60, 0%, 0%);
     transition: 0.25s;
 }
 
@@ -72,6 +72,10 @@ nav {
     margin: 5px;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+.content{
+    display: flex;
 }
 
 .column3 {
@@ -95,7 +99,7 @@ nav {
 
 .nature-image{
     max-width: 300px;
-
+    margin-right: 5px;
 }
 
 body > nav {
