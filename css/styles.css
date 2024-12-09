@@ -143,6 +143,9 @@ p {
         width: 90vw;
     }
 
+    nav{
+        width: 92vw;
+    }
     nav li {
         font-size: small;
     }
@@ -152,11 +155,12 @@ p {
     }
 
     .column2 {
-        width: 88vw;
+        width: 85vw;
+        margin: auto;
     }
 
     #splash {
-        width: 88vw;
+        width: 85vw;
     }
 }
 
